@@ -1,0 +1,173 @@
+#wrap {
+    width:100%;
+    height:90%;
+    margin:0 auto;
+}
+
+.chat {
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    text-align:center;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.footer {
+    width:100%;
+    height:30px;
+    margin:0 auto;
+    vertical-align:bottom;
+}
+
+#css_tabs {
+    font-family:'nanumgothic', 'malgun gothic', 'dotum', sans-serif;
+    text-align: center;
+}
+
+#css_tabs input:nth-of-type(1), #css_tabs input:nth-of-type(1) ~ div:nth-of-type(1), #css_tabs input:nth-of-type(2), #css_tabs input:nth-of-type(2) ~ div:nth-of-type(2) {
+    display:none
+}
+
+#css_tabs input:nth-of-type(1):checked ~ div:nth-of-type(1), #css_tabs input:nth-of-type(2):checked ~ div:nth-of-type(2) {
+    display:block
+}
+
+#css_tabs > label {
+    display:inline-block;
+    font-variant:small-caps;
+    font-size:.9em;
+    padding:1%;
+    text-align:center;
+    width:40%;
+    line-height:1.8em;
+    font-weight:700;
+    border-radius:1px 1px 0 0;
+    background:#eee;
+    color:#777;
+    border:1px solid #ccc;
+    border-width:1px 1px 0;
+}
+#css_tabs > label:hover {
+    cursor:pointer
+}
+#css_tabs label[for=tab1] {
+    /*margin-left:1.5em*/
+}
+#css_tabs input:nth-of-type(1):checked ~ label:nth-of-type(1), #css_tabs > label[for=tab1]:hover {
+    background:#68AAFE;
+    color:#fff
+}
+#css_tabs input:nth-of-type(2):checked ~ label:nth-of-type(2), #css_tabs > label[for=tab2]:hover {
+    background:#68AAFE;
+    color:#fff
+}
+#css_tabs .tab1_content, #css_tabs .tab2_content {
+    padding:2%;
+    border:1px solid #ddd;
+    width:90%;
+    height:90%;
+    margin:0 auto;
+}
+
+.chat li {
+    display:inline-block;
+    padding:1%;
+    margin:1%;
+    font-size: 12px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chat .my {
+    text-align:left;
+    background-color: #C1E4EC;
+    max-width: 60%;
+    height: auto;
+    clear: both;
+    float: right;
+}
+
+.chat .other {
+    text-align:left;
+    background-color: #ecf0f1;
+    max-width: 60%;
+    clear: both;
+    float: left;
+}
+
+.chat .notice {
+    text-align:center;
+    background-color: #9dc8e1;
+    width: 96%;
+    clear: both;
+    float: center;
+}
+
+.footer {
+    width:100%;
+    height:30px;
+    margin:0 auto;
+    vertical-align:bottom;
+    text-align: center;
+}
+
+.footer .inputs {
+    padding: 8px;
+    margin: 1%;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    background-image: none;
+    width:90%;
+    display: inline-block;
+}.footer .inputs:focus {
+    outline-color: #54B4AD;
+}
+
+.footer button {
+    -moz-box-shadow: 0px 1px 0px 0px #bbdaf7;
+    -webkit-box-shadow: 0px 1px 0px 0px #bbdaf7;
+    box-shadow: 0px 1px 0px 0px #bbdaf7;
+    background-color:#79bbff;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0;
+    border:1px solid #84bbf3;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial Black;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+    text-decoration:none;
+    text-align:center;
+    width:90%;
+    margin-bottom: 1%;
+}.footer button:hover {
+    background-color:#378de5;
+}.footer button:active {
+    position:relative;
+    top:1px;
+}

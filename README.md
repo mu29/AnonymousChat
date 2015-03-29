@@ -1,2 +1,2 @@
 # unistchat
-UNIST Anonymity Chatting
+UNIST 익명 채팅
