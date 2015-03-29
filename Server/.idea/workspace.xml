@@ -31,19 +31,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47115386" vertical-offset="1266" max-vertical-offset="3105">
-              <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2481" max-vertical-offset="3120">
+              <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1553#1554#0" expanded="true" />
                 <element signature="e#1603#1604#0" expanded="true" />
                 <element signature="e#6006#6007#0" expanded="true" />
                 <element signature="e#6041#6042#0" expanded="true" />
-                <element signature="e#6084#6331#0" expanded="true" />
-                <element signature="e#6330#6331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/RoomHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="1635">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +62,8 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1140">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
@@ -79,8 +77,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1035">
-              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1050">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1045#1046#0" expanded="true" />
@@ -90,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Packet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="624">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,10 +110,10 @@
         <option value="$PROJECT_DIR$/src/HttpHeaderUtil.java" />
         <option value="$PROJECT_DIR$/src/Packet.java" />
         <option value="$PROJECT_DIR$/src/ChatServer.java" />
-        <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/RoomHandler.java" />
         <option value="$PROJECT_DIR$/src/Room.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
+        <option value="$PROJECT_DIR$/src/User.java" />
       </list>
     </option>
   </component>
@@ -152,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,7 +200,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,16 +524,17 @@
       <workItem from="1427356108377" duration="473000" />
       <workItem from="1427375680454" duration="1273000" />
       <workItem from="1427632131241" duration="4382000" />
-      <workItem from="1427639044198" duration="9307000" />
+      <workItem from="1427639044198" duration="9603000" />
+      <workItem from="1427653990420" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42210000" />
+    <option name="totallyTimeSpent" value="42531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -545,24 +544,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39723927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33742332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39723927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -633,8 +632,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,8 +666,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,8 +700,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,8 +734,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,8 +768,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,8 +802,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,8 +836,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,8 +870,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,8 +904,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -957,8 +938,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -993,8 +972,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1029,8 +1006,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1065,8 +1040,6 @@
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#6006#6007#0" expanded="true" />
             <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,24 +1089,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33150685" vertical-offset="6149" max-vertical-offset="9405">
           <caret line="468" column="0" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
-          <folding>
-            <element signature="e#15044#15045#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Packet.java">
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2481" max-vertical-offset="3120">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#6006#6007#0" expanded="true" />
+            <element signature="e#6041#6042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1035">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1050">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1045#1046#0" expanded="true" />
@@ -1145,7 +1121,7 @@
     <entry file="file://$PROJECT_DIR$/src/RoomHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="1635">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1154,8 +1130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1140">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
@@ -1165,19 +1141,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Packet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47115386" vertical-offset="1266" max-vertical-offset="3105">
-          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#6006#6007#0" expanded="true" />
-            <element signature="e#6041#6042#0" expanded="true" />
-            <element signature="e#6084#6331#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="624">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
