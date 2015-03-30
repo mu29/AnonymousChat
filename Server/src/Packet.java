@@ -1,6 +1,3 @@
-/**
- * Created by InJung on 15. 3. 23..
- */
 public class Packet {
     public static String notify(String msg) {
         return "0|" + msg;

@@ -8,22 +8,15 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.Random;
 
 public class Server extends WebSocketServer {
     private static Server chatServer = null;
-    private static RoomHandler roomHandler = null;
-    private static Hashtable<WebSocket, User> users = new Hashtable<WebSocket, User>();
-    private static ArrayList<String> waitList = new ArrayList<String>();
-    private static ArrayList<String> banWords = new ArrayList<String>();
-    private static Random r = new Random();
+    private RoomHandler roomHandler = null;
+    private Hashtable<WebSocket, User> users;
+    private ArrayList<String> banWords;
 
     public static void main(String[] args) {
         chatServer = Server.getInstance();
-        roomHandler = RoomHandler.getInstance();
-
-        User.makeNamePool();
-        makeBanWords();
 
         System.out.println("서버를 시작합니다. (" + chatServer.getPort() + ")");
         Runtime.getRuntime().addShutdownHook(closeThread);
@@ -38,8 +31,8 @@ public class Server extends WebSocketServer {
         return chatServer;
     }
 
-    public static ArrayList<String> getUserIDs() {
-        ArrayList<String> userIDs = new ArrayList<String>();
+    public ArrayList<String> getUserIDs() {
+        ArrayList<String> userIDs = new ArrayList<>();
         for (User user : users.values()) {
             userIDs.add(user.getID());
         }
@@ -48,6 +41,12 @@ public class Server extends WebSocketServer {
 
     public Server(int port) {
         super(new InetSocketAddress(port));
+        roomHandler = RoomHandler.getInstance();
+        users = new Hashtable<>();
+        banWords = new ArrayList<>();
+
+        User.makeNamePool();
+        makeBanWords();
     }
 
     @Override
@@ -70,21 +69,6 @@ public class Server extends WebSocketServer {
         User exitedUser = users.get(webSocket);
         roomHandler.exitUser(exitedUser);
         users.remove(webSocket);
-    }
-
-    // 메시지 체크
-    private String checkMessage(String _msg, User _user) {
-        _msg = _msg.replace("|", "?");
-        _msg = _msg.replace("<", "(lshift)");
-        _msg = _msg.replace(">", "(rshift)");
-
-        // 금지 단어 뱉으면 격리하자
-        for (String word : banWords) {
-            if (_msg.contains(word))
-                _user.setIsolate(true);
-        }
-
-        return _msg;
     }
 
     @Override
@@ -177,18 +161,22 @@ public class Server extends WebSocketServer {
         e.printStackTrace();
     }
 
-    private static Thread closeThread = new Thread() {
-        public void run() {
-            try {
-                chatServer.stop();
-                System.out.println("서버를 종료합니다");
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    };
+    // 메시지 체크
+    private String checkMessage(String _msg, User _user) {
+        _msg = _msg.replace("|", "?");
+        _msg = _msg.replace("<", "(lshift)");
+        _msg = _msg.replace(">", "(rshift)");
 
-    private static void makeBanWords() {
+        // 금지 단어 뱉으면 격리하자
+        for (String word : banWords) {
+            if (_msg.contains(word))
+                _user.setIsolate(true);
+        }
+
+        return _msg;
+    }
+
+    private void makeBanWords() {
         try {
             String s;
             BufferedReader words = new BufferedReader(new FileReader("./Data/banWords.txt"));
@@ -199,4 +187,15 @@ public class Server extends WebSocketServer {
             e.printStackTrace();
         }
     }
+
+    private static Thread closeThread = new Thread() {
+        public void run() {
+            try {
+                chatServer.stop();
+                System.out.println("서버를 종료합니다");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    };
 }

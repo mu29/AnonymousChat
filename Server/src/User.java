@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class User {
-    private static ArrayList<String> headNames = new ArrayList<String>();
-    private static ArrayList<String> tailNames = new ArrayList<String>();
-    private Random r = new Random();
+    private static ArrayList<String> headNames = new ArrayList<>();
+    private static ArrayList<String> tailNames = new ArrayList<>();
+    private static Random r = new Random();
 
     private WebSocket mSocket;
     private String mID;
@@ -19,7 +19,7 @@ public class User {
 
     public User(WebSocket _socket) {
         mSocket = _socket;
-        ArrayList<String> userIDs = Server.getUserIDs();
+        ArrayList<String> userIDs = Server.getInstance().getUserIDs();
 
         do {
             mID = headNames.get(r.nextInt(headNames.size())) + " " + tailNames.get(r.nextInt(tailNames.size()));

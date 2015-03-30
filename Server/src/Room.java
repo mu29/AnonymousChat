@@ -4,18 +4,17 @@ public class Room {
     private int mID;
     private int mMaxUser;
     private ArrayList<User> mUsers;
-    private static int roomIndex = 0;
 
     public Room() {
         mID = 0;
         mMaxUser = 1000;
-        mUsers = new ArrayList<User>();
+        mUsers = new ArrayList<>();
     }
 
     public Room(User _user, int _id) {
         mID = _id;
         mMaxUser = 2;
-        mUsers = new ArrayList<User>();
+        mUsers = new ArrayList<>();
         mUsers.add(_user);
         _user.setRoom(mID);
     }

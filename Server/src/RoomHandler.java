@@ -17,8 +17,8 @@ public class RoomHandler {
     }
 
     public RoomHandler() {
-        mRoomList = new Hashtable<Integer, Room>();
-        mWaitList = new ArrayList<Integer>();
+        mRoomList = new Hashtable<>();
+        mWaitList = new ArrayList<>();
         mRoomList.put(0, new Room());
     }
 
