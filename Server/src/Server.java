@@ -62,6 +62,8 @@ public class Server extends WebSocketServer {
 
         // 도움말 보냄
         webSocket.send(Packet.help());
+
+        System.out.println(loggedUser.getID() + " 접속 (" + webSocket.getRemoteSocketAddress().getHostName() + ")");
     }
 
     @Override
@@ -69,6 +71,8 @@ public class Server extends WebSocketServer {
         User exitedUser = users.get(webSocket);
         roomHandler.exitUser(exitedUser);
         users.remove(webSocket);
+
+        System.out.println(exitedUser.getID() + " 접속 해제 (" + webSocket.getRemoteSocketAddress().getHostName() + ")");
     }
 
     @Override
